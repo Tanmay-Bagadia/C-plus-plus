@@ -13,12 +13,12 @@ int main()
     // cout << userVal1 + userVal2;
 
     // program to convert temperature from farenheit to celsius
-    double farenheitTemp;
+    double fahrenheitTemp;
     double celsiusTemp;
-    cout << "Program to convert temperature from farenheit to celsius" << endl;
-    cout << "Enter temperature in Farenheit: " << endl;
-    cin >> farenheitTemp;
-    celsiusTemp = (farenheitTemp - 32.0) * (5 / 9);
+    cout << "Program to convert temperature from fahrenheit to celsius" << endl;
+    cout << "Enter temperature in Fahrenheit: " << endl;
+    cin >> fahrenheitTemp;
+    celsiusTemp = (fahrenheitTemp - 32.0) * (5 / 9);
     cout << "Celsius Temperature: " << celsiusTemp;
     return 0;
 }

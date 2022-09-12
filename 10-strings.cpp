@@ -13,10 +13,14 @@ int main()
     // // string fullName = firstName + " " + lastName;
     // cout << "Full Name is: " << fullName;
 
-    string userStr;
-    cout << "Enter a string: ";
-    cin >> userStr;
-    cout << "The length of the string is: " << userStr.size() << endl;
-    cout << userStr[0];
+    string fullName;
+    cout << "Type your full name: ";
+    getline(cin, fullName);
+    cout << "Your name is: " << fullName;
+    // string userStr;
+    // cout << "Enter a string: ";
+    // cin >> userStr;
+    // cout << "The length of the string is: " << userStr.size() << endl;
+    // cout << userStr[0];
     return 0;
 }

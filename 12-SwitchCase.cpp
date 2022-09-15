@@ -4,21 +4,14 @@ using namespace std;
 
 int main()
 {
-    int day = 4;
-    switch (day)
+    int day = 4 switch (day)
     {
-    case 2:
-        cout << "Good morning";
-        break;
-    case 4:
-        cout << "Good evening";
-        break;
-    case 6:
-        cout << "Good afternoon";
-        break;
+    case 4 /* constant-expression */:
+        /* code */ cout << "Good Day" break;
+
     default:
-        cout << "Have a great weekend";
-        break;
+        couut << "Have a nice weekend!" break;
     }
-    return 0;
+}
+return 0;
 }
